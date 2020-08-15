@@ -3,7 +3,7 @@ def has_negatives(a):
     box = {} # make the dictionary
     a.sort(reverse=True) # sort the given list, reverse it.
 
-    for iterable, start in enumerate(a): 
+    for iterable, start in enumerate(a):  # enumerate the list to make it easier
         box[start] = iterable
     
     for key, value in box.items():

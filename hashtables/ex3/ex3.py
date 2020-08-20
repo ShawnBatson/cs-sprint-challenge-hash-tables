@@ -1,8 +1,10 @@
 def intersection(arrays):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    # box = {}
+    # result = []
+    # for iterable, arrays in enumerate(arrays):
+    #     box[iterable] = arrays
+    # for key, value in box.items():
+    #     pass
 
     return result
 
